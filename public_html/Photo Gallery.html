@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Photo Gallery</title>
+        <link href="MyStyle.css" rel="stylesheet" type="text/css"/>
+        <link href="lightbox.css" rel="stylesheet" type="text/css"/>
+        <script src="JavaScript/jquery-1.10.2.min.js" type="text/javascript"></script>
+        <script src="JavaScript/lightbox-2.6.min.js" type="text/javascript"></script>
+        <script src="JavaScript/modernizr.custom.js" type="text/javascript"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: darkred;
+            }
+
+            li {
+                float: left;
+            }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover:not(.active) {
+                background-color: #111;
+            }
+
+            .active {
+                background-color: #4CAF50;
+            }
+        </style>
+    </head>
+    <body bgcolor='0530B5'>
+        <ul>
+            <li><a href="Home Page.html">Home Page</a></li>
+            <li><a href="About Us.html">About Us</a></li>
+            <li><a href="Contract Us.html">Contact Us</a></li>
+            <li><a href="Get Involved.html">Get Involved</a></li>
+            <li><a href="Our Work.html">Our Work</a></li>
+            <li><a href="Photo Gallery.html">Photo Gallery</a></li>
+            <li style="float:right"><a href="References.html">References</a></li>
+        </ul>
+        <center>
+            <img src="Pictures/Logo/Latest Vidz Logo 2.png" alt="Latest Vidz Logo" width='400' height="200"/>
+        </center>
+        <center>
+            <h1>Inside Latest Vidz</h1>
+        </center>
+        <center>
+            <a href="Pictures/Place/Place 1.jpg" data-lightbox="Pictures" title="Store Front 1">
+                <img src="Pictures/Place/Place 1.jpg" alt="Latest Vidz 1" width="500" height="500" style="max-width:100%;height:auto;"/></a>
+            <a href="Pictures/Place/Place 2.jpg" data-lightbox="Pictures" title="Store Front 2">
+                <img src="Pictures/Place/Place 2.jpg" alt="Latest Vidz 2" width="500" height="500" style="max-width:100%;height:auto;"/></a>
+        </center>
+        <center>
+            <h1>Latest Vidz Staff</h1>
+        </center>
+        <center>
+            <a href="Pictures/Staff/large-group-standing-in-office.jpg" data-lightbox="Pictures" title="Employees">
+                <img src="Pictures/Staff/large-group-standing-in-office.jpg" alt="Staff 1" width="700" height="500" style="max-width:100%;height:auto;"/></a>
+            <p>
+                From the left: Cammie Canton, Stephanie Holen, Michael Mendivil, Wandy Lee, Craig Henderson,<br>
+                Clarence Lewis, Philip Stewart, Earl Gray, Rose Murphy, Beverly Russell, Fred Richardson
+            </p>
+        </center>
+        <center>
+            <footer>
+            <p>Posted by: Latest Vidz<br>
+            Updated in: 30/08/2019<br>
+            Business Hours: 9AM - 6PM
+            </p>
+            </footer>
+        </center>
+    </body>
+</html>
